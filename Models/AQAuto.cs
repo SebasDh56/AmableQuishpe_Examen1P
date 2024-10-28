@@ -14,6 +14,7 @@ namespace AmableQuishpe_Examen1P.Models
         
         public int AQAnio { get; set; }
 
+        [StringLength(10)]
         public string? AQCombustible { get; set; }
 
         public bool AQUsado { get; set; }
