@@ -22,7 +22,7 @@ namespace AmableQuishpe_Examen1P.Models
         public decimal AQPrecio { get; set; }
 
         [EmailAddress]
-        public string? AQEmaildistribuidor { get; set; }
+        public string? AqEmaildistribuidor { get; set; }
 
         public DateTime AQFechaIngreso { get; set; }
 
